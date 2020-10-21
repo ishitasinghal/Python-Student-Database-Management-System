@@ -1,7 +1,7 @@
 pipeline {
 environment {
 registry = "ishita31/midwebapp"
-registryCredential = 'dockerhub'
+registryCredential = 'ishitadockerid'
 dockerImage = ''
 }
 agent any
