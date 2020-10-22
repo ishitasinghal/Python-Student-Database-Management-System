@@ -3,7 +3,7 @@ pipeline {
       timeout(20) 
   }
 environment {
-registry = "ishita31/midwebapp"
+registry = "ishita31/midwebapplatest"
 registryCredential = 'ishitadockerid'
 dockerImage = ''
 }
