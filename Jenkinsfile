@@ -1,4 +1,7 @@
 pipeline {
+  options {
+      timeout(20) 
+  }
 environment {
 registry = "ishita31/midwebapp"
 registryCredential = 'ishitadockerid'
